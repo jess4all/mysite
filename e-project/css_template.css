@@ -1,0 +1,24 @@
+/********** Extra large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Medium devices only **********//********** 768px below is mobile **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* ********* Small devices only **********/ /*Samsung Galaxy S9+ Viewport is 360 x 740px, Apple iPhone XS Max 414 x 896px, Samsung Galaxy Note9 414 x 846px */
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/********** Extra Small devices only **********/
+@media (max-width: 575px) {
+
+}
