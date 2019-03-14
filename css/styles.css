@@ -1,0 +1,254 @@
+body {
+
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.navbarBackgroundSpace {
+  height: 58px;
+  /* border: 1px solid black; */
+}
+
+.bg-blue1 {
+  background-color: #005b96;
+}
+.bg-white1 {
+  background-color: white;
+}
+.bg-blue2 {
+  background-color: #2a4d69;
+}
+.bg-green1 {
+  background-color: #008744;
+}
+
+/* #iconBrand {
+  padding-top: 0px;
+  padding-bottom: 0px;
+} */
+
+
+#mainNav .navbar-brand  {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#mainNav .mainNavbarLink {
+  margin-left: 10px;
+}
+
+#mainNav .dropdown-menu .dropdown-item {
+  color: white;
+}
+
+nav .dropdown-menu {
+  margin-top: 0px;
+}
+
+#productDropdown .menuW {
+  margin-top: -10px;
+  padding-top: 10px;
+  border: none;
+  border-radius: 0px;
+}
+/* #catalogDropdown .dropdown-menu
+#logInDropdown .dropdown-menu {
+    margin-top: 0px;
+} */
+
+
+#productDropdown {
+  position: static;
+}
+
+.text-color1 {
+  color: black;
+}
+.text-color2 {
+  color: white;
+}
+
+.fontSize1em {
+  font-size: 1em;
+}
+.fontSize2em {
+  font-size: 2em;
+}
+.fontSize3em {
+  font-size: 3em;
+}
+
+#collapseSearch .form-control {
+  border: none;
+
+}
+
+
+
+
+
+.widthIs {
+  width: 250px;
+}
+.widthIs2 {
+  width: 210px;
+}
+
+/* .collapse {
+  visibility: hidden;
+} */
+/* .collapse.show {
+  visibility: visible;
+  display: block;
+} */
+/* .collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition-property: height, visibility;
+  transition-property: height, visibility;
+  -webkit-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+} */
+.collapsing.width {
+  width: 0;
+  height: auto;
+  overflow: hidden;
+
+  -webkit-transition-property: width, visibility;
+  -moz-transition-property: width, visibility;
+  -o-transition-property: width, visibility;
+  transition-property: width, visibility;
+  -webkit-transition-duration: 0.35s;
+  -moz-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+
+
+  /* -webkit-transition: width 0.35s ease;
+  -moz-transition: width 0.35s ease;
+  -o-transition: width 0.35s ease;
+  transition: width 0.35s ease; */
+}
+
+
+#verifyEmailElement div h1, #signUpElement div h1, #signInElement div h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+#signUpElement button, #signInElement button, #verifyEmailElement button {
+  width: 100%
+}
+
+.maxWidthContainer {
+  max-width: 400px;
+}
+
+#jumbotronMain {
+  background: url("../img/still-life-fresh--organic--healthy-vegetable-harvest-variety-in-wood-crate-742168705-5b117e71a9d4f90038e704b0.jpg") no-repeat center;
+  /* background-size: cover; */
+  height: 850px;
+}
+
+.jumbotron-fluid h1 {
+  font-size: 4em;
+  padding-left: 1em;
+  padding-right: 1em;
+
+}
+.jumbotron-fluid p {
+  font-size: 1.5em;
+}
+
+#jumbotron01 {
+  background: url("../img/sb10066792a-001.jpg") no-repeat center;
+  background-size: cover;
+  height: 800px;
+}
+
+
+
+/********** Extra large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Medium devices only **********//********** 768px below is mobile **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #jumbotronMain {
+    background-size: cover;
+    max-height: 500px;
+  }
+}
+
+/* ********* Small devices only **********/ /*Samsung Galaxy S9+ Viewport is 360 x 740px, Apple iPhone XS Max 414 x 896px, Samsung Galaxy Note9 414 x 846px */
+@media (min-width: 576px) and (max-width: 767px) {
+  #jumbotronMain {
+    background-size: cover;
+    max-height: 500px;
+  }
+
+  #jumbotronMain h1 {
+    font-size: 3em;
+  }
+  #jumbotronMain p {
+    font-size: 1.3em;
+  }
+
+}
+
+/********** Extra Small devices only **********/
+@media (max-width: 575px) {
+  #jumbotronMain {
+    background-size: cover;
+    max-height: 700px;
+    /* height: 400px; */
+  }
+
+  #jumbotronMain h1 {
+    font-size: 2.2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-weight: bold;
+
+    /* font-weight: bold; */
+  }
+  #jumbotronMain p {
+    font-size: 1.1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-weight: bold;
+
+  }
+  #jumbotron01 {
+    background-size: cover;
+    height: 300px;
+  }
+
+  #jumbotron02 img {
+    display: none;
+  }
+  #jumbotron02 {
+    background: url("../img/1506015831-lede.jpg") no-repeat center;
+    background-size: cover;
+    height: 500px;
+  }
+}
