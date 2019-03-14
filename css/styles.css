@@ -251,4 +251,11 @@ nav .dropdown-menu {
     background-size: cover;
     height: 500px;
   }
+
+  .mainContentForIndex div h1 {
+    font-size: 2.2em;
+  }
+  .mainContentForIndex div p, {
+
+  }
 }
