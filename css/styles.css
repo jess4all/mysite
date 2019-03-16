@@ -28,6 +28,24 @@ a:hover {
 .bg-green1 {
   background-color: #008744;
 }
+.bg-blue3 {
+  background-color: #b3cde0;
+}
+.bg-green1 {
+  /* background-color: #009688; */
+  /* background-color: #35a79c; */
+  background-color: #008744;
+
+}
+.bg-grey1 {
+  background-color: #cccccc;
+}
+.bg-grey2 {
+  background-color: #dddddd;
+}
+
+
+
 
 /* #iconBrand {
   padding-top: 0px;
@@ -78,11 +96,35 @@ nav .dropdown-menu {
 .fontSize1em {
   font-size: 1em;
 }
+.fontSize1-1em {
+  font-size: 1.1em;
+}
+.fontSize1-2em {
+  font-size: 1.2em;
+}
 .fontSize2em {
   font-size: 2em;
 }
+.fontSize2-3em {
+  font-size: 2.3em;
+}
 .fontSize3em {
   font-size: 3em;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+
+.contactUsTile .contactUsTileTitle {
+  font-size: 1.5em;
+}
+.contactUsTile .contactUsTileTelnum {
+  font-size: 1.5em;
+}
+.contactUsTile .contactUsTileContent {
+  font-size: 1.1em;
 }
 
 #collapseSearch .form-control {
@@ -92,6 +134,10 @@ nav .dropdown-menu {
 
 
 
+}
+.contactUsTile a:hover, .contactUsTile a:active {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
 
 
 .widthIs {
@@ -156,6 +202,12 @@ nav .dropdown-menu {
 .maxWidthContainer {
   max-width: 400px;
 }
+.maxWidthContainer2 {
+  max-width: 1220px;
+}
+.maxWidthContainer3 {
+  max-width: 970px;
+}
 
 #jumbotronMain {
   background: url("../img/still-life-fresh--organic--healthy-vegetable-harvest-variety-in-wood-crate-742168705-5b117e71a9d4f90038e704b0.jpg") no-repeat center;
@@ -212,6 +264,21 @@ nav .dropdown-menu {
   #jumbotronMain p {
     font-size: 1.3em;
   }
+  .mobileChange1 {
+    background-color: #dddddd;
+  }
+  #contactUsPageMainContent .contactUsTitle {
+    font-size: 2em;
+  }
+  #contactUsPageMainContent .contactUsTitleSub {
+    font-size: 1em;
+  }
+  .contactUsOuterTile {
+    height: 200px;
+  }
+  .contactUsTile .contactUsTileContent {
+    font-size: 1em;
+  }
 
 }
 
@@ -258,4 +325,21 @@ nav .dropdown-menu {
   .mainContentForIndex div p, {
 
   }
+  .mobileChange1 {
+    background-color: #dddddd;
+  }
+  #contactUsPageMainContent .contactUsTitle {
+    font-size: 2em;
+  }
+  #contactUsPageMainContent .contactUsTitleSub {
+    font-size: 1em;
+  }
+  .contactUsOuterTile {
+    height: 200px;
+  }
+  .contactUsTile .contactUsTileContent {
+    font-size: 1em;
+  }
+
+
 }

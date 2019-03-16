@@ -18,7 +18,7 @@
 </head>
 
 <body>
-  <nav id="mainNav" class="navbar navbar-expand-md navbar-dark sticky-top bg-blue1">
+  <nav id="mainNav" class="navbar navbar-expand-md navbar-dark  bg-blue1">
     <!-- <div class="container-fluid"> -->
       <a class="navbar-brand" href="./index.html"><i class="fab fa-github-square fa-2x"></i></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,7 +60,7 @@
             </div>
           </li>
           <li class="nav-item"><a class="nav-link" href="./index.html"><span class="mainNavbarLink">Promotion</span></a></li>
-          <li class="nav-item"><a class="nav-link" href="./index.html"><span class="mainNavbarLink">Contact Us</span></a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="./index.html"><span class="mainNavbarLink">Contact Us</span></a></li> -->
           <li class="nav-item"><a class="nav-link" href="./about.html"><span class="mainNavbarLink">About</span></a></li>
         </ul>
         <div id="logInDropdown" class="nav-item dropdown navbar-nav">
@@ -148,45 +148,86 @@
     <!-- </div> -->
   </nav>
 
-  <div class="temp999">
-    <div class="text-color1">
-      <h1>Nav Links:</h1>
-      <h3><a href="./sign-in.html">Sign in</a></h3>
-      <h3><a href="./sign-up.html">Sign-up2</a></h3>
-      <h3><a href="./verify-email.html">verify-email</a></h3>
-      <h3><a href="./email-us.html">email-us</a></h3>
-      <h3><a href="./contact-us.html">contact-us</a></h3>
-      <h3></h3>
+
+
+  <div id="contactUsPageMainContent" class="container-fluid pt-3 mobileChange1">
+    <div class="row mb-3">
+      <div class="col-12 col-sm-12 text-center p-5">
+        <h1 class="fontSize2-3em contactUsTitle">Contact us</h1>
+        <div class="fontSize1-1em contactUsTitleSub">You can give us a call, E-mail us or chat with us for support.</div>
+      </div>
+    </div>
+    <div class="row justify-content-center bg-grey2 p-md-5 px-3">
+      <div class="maxWidthContainer2 col-12 col-md-12 ">
+        <div class="row justify-content-center ">
+          <div class="col-12 col-md-6 col-lg-3 px-md-4 py-2 contactUsOuterTile">
+            <a class="" href="tel:+8001234567">
+              <div class="row contactUsTile border py-md-5 h-100 bg-white">
+                <div class="col-3 col-md-12 my-auto text-center py-3">
+                    <i class="fas fa-phone fa-3x"></i>
+                </div>
+                <div class="col-9 col-md-12 text-md-center pb-2 my-auto">
+                  <div class="contactUsTileTitle">Call us</div>
+                  <div class="contactUsTileTelnum">+1(800) 609-6590</div>
+                  <div class="contactUsTileContent">4 am - 10 pm EST, Mon to Sun</div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 px-md-4 py-2 contactUsOuterTile">
+            <a class="" href="#">
+              <div class="row contactUsTile border py-md-5 h-100 bg-white">
+                <div class="col-3 col-md-12 d-flex justify-content-center align-items-center py-3">
+                    <i class="fas fa-globe fa-3x"></i>
+                </div>
+                <div class="col-9 col-md-12 text-md-center pb-2 my-auto">
+                  <div class="contactUsTileTitle">Chat with us</div>
+                  <div class="contactUsTileContent">Talk to one of our agents right now</div>
+                  <div class="contactUsTileContent">4 am - 10 pm EST, Mon to Sun</div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 px-md-4 py-2 contactUsOuterTile">
+            <a  class="" href="mailto:confusion@food.net">
+              <div class="row contactUsTile border py-md-5 h-100 bg-white">
+                <div class="col-3 col-md-12 d-flex justify-content-center align-items-center py-3">
+                    <i class="fas fa-envelope fa-3x"></i>
+                </div>
+                <div class="col-9 col-md-12 text-md-center pb-2 my-auto">
+                  <div class="contactUsTileTitle">Email us</div>
+                  <div class="contactUsTileContent">Send us an email and we'll get back to you within 24 hours</div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 px-md-4 py-2 contactUsOuterTile">
+            <a class="" href="#">
+              <div class="row contactUsTile border py-md-5 h-100 bg-white">
+                <div class="col-3 col-md-12 d-flex justify-content-center align-items-center py-3">
+                    <i class="fas fa-ticket-alt fa-3x"></i>
+                </div>
+                <div class="col-9 col-md-12 text-md-center pb-2 my-auto">
+                  <div class="contactUsTileTitle">Ticket us</div>
+                  <div class="contactUsTileContent">Do you have additional questions after you bought our product?</div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
     </div>
   </div>
 
 
 
-  <!-- <div class="container-fluid dropdownForProduct">
-    <div class="row">
-      <div class="col-12 col-sm-6 col-lg-4">
-        <div><a href="#">Amino Acids</a></div>
-        <div>Antioxidants</div>
-        <div>Calcium</div>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-4">
-        <div>Coenzyme Q10</div>
-        <div>Digestive Enzymes</div>
-        <div>Echinacea</div>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-4">
-        <div>Glucosamine, Chondroitin & MSM</div>
-        <div>Gummies</div>
-        <div>Herbs & Plant Extracts</div>
-      </div>
-    </div>
-  </div> -->
 
 
 
 
 
-  <h1><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></h1>
+  <h1 class="mobileChange1"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></h1>
 
 
   <footer class="card-footer bg-blue2 text-color2">
@@ -231,6 +272,38 @@
       <div class="text-center">&copy; Copyright jess4all 2018</div>
     </div>
   </footer>
+
+
+
+
+
+
+
+
+
+  <!-- <div class="container-fluid dropdownForProduct">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div><a href="#">Amino Acids</a></div>
+        <div>Antioxidants</div>
+        <div>Calcium</div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div>Coenzyme Q10</div>
+        <div>Digestive Enzymes</div>
+        <div>Echinacea</div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div>Glucosamine, Chondroitin & MSM</div>
+        <div>Gummies</div>
+        <div>Herbs & Plant Extracts</div>
+      </div>
+    </div>
+  </div> -->
+
+
+
+
 
 
 
